@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arima', cursive;
+}
+.nav-container{
+  width: 100vw;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cedde0;
+  color: #1aa0a5;
+}
+.nav-content-logo{
+  display: flex;
+  align-items: center;
+}
+.nav-img{
+  height: 40px;
+  width: 120px;
+  object-fit: cover;
+  margin-left: 7em;
+}
+.nav-img-title{
+  margin-left: 0.5em;
+}
+.nav-ol{
+  margin-right: 7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.nav-li{
+  margin: 0 3em;
+}
+.nav-li a{
+  text-decoration: none;
+  color: #1aa0a5;
+  font-weight: bold;
+}
+.nav-li a:hover{
+  color: #2a6b43;
+}
+.main-container{
+  height: calc(100vh - 4em);
+  width: 100vw;
+  background: url(img/fotohtl.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(40%) blur(1.5px);
+}
+.main-form{
+  height: 550px;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.915);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 6px;
+}
+.form-title{
+  position: absolute;
+  top: 1em;
+  left: 37%;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: #1aa0a5;
+}
+.form-img{
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+}
+.form-input>input,.form-input>textarea{
+  margin: 0.5em 2.3em 0.5em 0.5em;
+  padding-left: 1em;
+  border: none;
+  font-weight: bold;
+  background-color: #cedde0;
+}
+.form-input>input{
+  height: 3em;
+}
+.form-input>textarea{
+  resize: none;
+  padding-top: 0.5em;
+}
+.form-button{
+  background-color: #cedde0;
+  font-weight: bold;
+  margin: 0.5em 2.3em 0.5em 0.5em;
+  padding-left: 1em;
+  border: none;
+  font-weight: bold;
+  height: 3em;
+  cursor: pointer;
+  color: #2a6b43;
+}
+.form-button:hover{
+  background-color: #1aa0a5;
+  transition: 0.5s;
+  color: #fff;
+}
